@@ -85,7 +85,7 @@ I’ve always been inspired by Iron Man’s tech and wanted to create something 
   ##
 
   -  [Helmet Template]( https://drive.google.com/open?id=1YfW2K6Q_CDc4ufU1XObH65F5ZKl07IGV)
-  -  [Tutorial Video](https://www.youtube.com/watch?v=On1XV3Aa_wo)
+  -  [Tutorial - Video](https://www.youtube.com/watch?v=On1XV3Aa_wo)
 
    TBD
   
