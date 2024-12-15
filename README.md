@@ -40,8 +40,7 @@ I’ve always been inspired by Iron Man’s tech and wanted to create something 
    -  2x LEDs
    -  1x IR Sensor
    -  1x IR Remote
-   -  1x 4xAA Battery Support
-   -  1x On/Off Switch
+   -  2x 4xAA Battery Support
    -  Jumper wires
   
 ##
