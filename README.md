@@ -42,6 +42,10 @@ I’ve always been inspired by Iron Man’s tech and wanted to create something 
    -  1x IR Remote
    -  2x 4xAA Battery Support
    -  Jumper wires
+
+More details:
+[Hardware](hardware/)
+
   
 ##
 </details>
