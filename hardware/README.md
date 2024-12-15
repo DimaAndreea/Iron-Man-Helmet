@@ -1,3 +1,22 @@
+## About
+
+
+| Component           | Pin(s)       | Timer |
+|---------------------|--------------|------------------------------------------------------|
+| White LEDs  | 3, 11 (PWM)  | Timer 2              |
+| Servomotors         | 9, 10 (PWM)  | Timer 1   |
+| Passive Buzzer      | 6            | Timer 0                      |
+| IR Sensor           | 2            | INT0 interrupt     |
+
+
+
+* In this project, an Arduino Nano is used to create an Iron Man helmet with interactive features. The white LEDs for the eyes are connected to PWM pins 3 and 11, chosen for their ability to support a breathing animation effect. The servomotors, used to lift the faceplate and move simultaneously, are connected to PWM pins 9 and 10, as these pins enable precise and synchronized motor control. A 5V passive buzzer is connected to pin 6 to produce sound effects, and an IR sensor is connected to pin 2, utilizing the INT0 interrupt for efficient and reliable response to commands from an IR remote.
+
+* These pin assignments were chosen to make the best use of the Arduino Nano’s timers: timer 0 is used for the buzzer, timer 1 controls the servos, and timer 2 handles the LEDs. The Arduino is powered by four AA batteries, but the servos required a separate power source (another set of four AA batteries) to prevent circuit instability caused by their high current draw.
+
+
+
+
 <details>
   <summary> <h2>  Bill of Materials </h2> </summary>
   
