@@ -9,13 +9,16 @@
 | IR Sensor           | 2            | INT0 interrupt     |
 
 
+* The project is built around an Arduino Nano, chosen for its compact size to save space inside the helmet. The main functionalities are controlled via an IR remote and include two servomotors for lifting the faceplate, two white LEDs for eye illumination, and a passive buzzer for sound effects. The hardware components are connected to specific pins on the Arduino Nano, as shown below:
 
-* In this project, an Arduino Nano is used to create an Iron Man helmet with interactive features. The white LEDs for the eyes are connected to PWM pins 3 and 11, chosen for their ability to support a breathing animation effect. The servomotors, used to lift the faceplate and move simultaneously, are connected to PWM pins 9 and 10, as these pins enable precise and synchronized motor control. A 5V passive buzzer is connected to pin 6 to produce sound effects, and an IR sensor is connected to pin 2, utilizing the INT0 interrupt for efficient and reliable response to commands from an IR remote.
+  - White LEDs: Connected to pins 3 and 11 (PWM pins) and controlled via Timer 2. Each LED is paired with a 220-ohm resistor to limit current and prevent damage. The LEDs use PWM signals to create a "breathing" light effect, where the brightness gradually increases and decreases for a smooth and realistic visual appearance.
+  - Servomotors: Connected to pins 9 and 10 (PWM pins), utilizing Timer 1. These motors are powered by a separate 6V power supply (4 AA batteries) to ensure sufficient current, as the Arduino's main power source was insufficient.
+  - Passive Buzzer: Connected to pin 6, using Timer 0 to generate tones for sound effects.
+  - IR Sensor: Connected to pin 2, utilizing the INT0 interrupt for receiving and decoding signals from the IR remote. The communication is based on 38 kHz infrared modulation.
 
-* These pin assignments were chosen to make the best use of the Arduino Nano’s timers: timer 0 is used for the buzzer, timer 1 controls the servos, and timer 2 handles the LEDs. The Arduino is powered by four AA batteries, but the servos required a separate power source (another set of four AA batteries) to prevent circuit instability caused by their high current draw.
+* The Arduino Nano is powered by 4 AA batteries (6V), which provide the required voltage for the microcontroller. By powering the servomotors from a separate 6V supply, power-related issues are eliminated, ensuring reliable and smooth operation.
 
-
-
+* The communication between the components involves PWM signals for the LEDs and servomotors, and interrupt-based decoding for the IR sensor. 
 
 <details>
   <summary> <h2>  Bill of Materials </h2> </summary>
@@ -60,6 +63,19 @@
 
 
 ![Copy of Arduino Nano (3)](https://github.com/user-attachments/assets/76468681-3e60-46c0-83ad-dc33c7ba61e5)
+
+
+  ##
+</details>
+
+
+<details>
+  <summary> <h2>  Video Test </h2> </summary>
+  
+##
+
+[![Watch the video](https://img.youtube.com/vi/ticRafRHYcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=ticRafRHYcw)
+
 
 
   ##
