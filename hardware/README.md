@@ -1,12 +1,12 @@
 ## About
 
 
-| Component           | Pin(s)       | Timer |
-|---------------------|--------------|------------------------------------------------------|
-| White LEDs  | 3, 11 (PWM)  | Timer 2              |
-| Servomotors         | 9, 10 (PWM)  | Timer 1   |
-| Passive Buzzer      | 6            | Timer 0                      |
-| IR Sensor           | 2            | INT0 interrupt     |
+| Component           | Pin(s)       |
+|---------------------|--------------|
+| White LEDs  | 3, 11 (PWM)  | Timer 2     
+| Servomotors         | 9, 10 (PWM)  | 
+| Passive Buzzer      | 6            |
+| IR Sensor           | 2            | 
 
 
 * The project is built around an Arduino Nano, chosen for its compact size to save space inside the helmet. The main functionalities are controlled via an IR remote and include two servomotors for lifting the faceplate, two white LEDs for eye illumination, and a passive buzzer for sound effects. The hardware components are connected to specific pins on the Arduino Nano, as shown below:
@@ -46,8 +46,8 @@
   
 ##
 
-![block_diagram](https://github.com/user-attachments/assets/f789251e-5095-4b0a-b99f-d872d8ec4e21)
 
+![block_diagram](https://github.com/user-attachments/assets/20b7db20-4d2f-4443-b45f-51bafc3c9d41)
 
   ##
 </details>
