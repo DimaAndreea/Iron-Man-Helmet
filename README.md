@@ -59,7 +59,8 @@ More details:
   I will use the PlatformIO IDE extension within Visual Studio Code.
 
   
-   TBD
+  More details:
+[Software](src/)
   
 ##
 </details>
