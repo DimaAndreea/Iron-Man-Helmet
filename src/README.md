@@ -90,12 +90,12 @@ Interrupts were simulated and verified to immediately stop LEDs and the buzzer.
 
 
 <details>
-  <summary> <h2> Demo Vide </h2> </summary>
+  <summary> <h2> Demo Video </h2> </summary>
   
   ##
 
- TBD
 
+[![Watch the video](https://img.youtube.com/vi/A8keHcwIQiY/maxresdefault.jpg)](https://youtube.com/watch/A8keHcwIQiY)
 
 ##
 </details>
